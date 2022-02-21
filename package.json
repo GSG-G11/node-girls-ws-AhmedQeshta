@@ -1,0 +1,23 @@
+{
+  "name": "girls-ws",
+  "version": "1.0.0",
+  "description": "<img src=\"readme-images/logo.png\" alt=\"node-girls-logo\" styles=\"text-align:center;\" />",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-CA/node-girls-ws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-CA/node-girls-ws/issues"
+  },
+  "homepage": "https://github.com/GSG-CA/node-girls-ws#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

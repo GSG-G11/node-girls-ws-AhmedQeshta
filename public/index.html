@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>My first Node.js blog!</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,700"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link href="./public/main.css" rel="stylesheet" />
+		<link rel="icon" href="./public/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<header>
+			<img class="main-logo" src="./public/img/logo1.png" />
+			<h1 class="title">Node Girls</h1>
+		</header>
+		<main>
+			<div class="entry-container">
+				<form
+					class=""
+					action="/create-post"
+					method="post"
+					id="the-form"
+				>
+					<h2>Write a Blog Post</h2>
+					<textarea name="post" rows="8" cols="40"></textarea>
+					<button type="submit">Send</button>
+				</form>
+			</div>
+
+			<br />
+			<hr />
+			<br />
+
+			<h2>Recent Posts</h2>
+
+			<div class="post-container"></div>
+		</main>
+
+		<script src="./public/script.js" type="text/javascript"></script>
+	</body>
+</html>
